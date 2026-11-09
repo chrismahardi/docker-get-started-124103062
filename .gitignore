@@ -1,0 +1,39 @@
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Direktori dependencies
+node_modules/
+vendor/
+
+# Environment variables / konfigurasi sensitif
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Sistem Operasi & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Build / Output
+/dist/
+/build/
+*.pyc
+__pycache__/
